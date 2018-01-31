@@ -1,0 +1,4 @@
+-display the 10 companies.
+-create the form to input those 10 companies.
+-design a makeshift website.
+- look for templates.
