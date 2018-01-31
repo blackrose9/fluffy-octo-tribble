@@ -8,7 +8,8 @@
             <!-- Latest compiled JavaScript -->
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </header>
-    <form 	 method = "POST" action='save.php' >
+    <body>
+    <form 	 method = "POST" action='insert.php' >
      
     
              <br/>
@@ -34,6 +35,7 @@
             <br/> 
         <input type = "submit" name = "submit" value = "submit" />
     </form>
+</body>
 </html>
 
                     
