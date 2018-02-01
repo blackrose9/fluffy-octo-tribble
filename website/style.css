@@ -1,0 +1,131 @@
+body{
+    background-color: aliceblue;
+}
+
+/* Header CSS */
+header{
+    background-color: lightslategray;
+    height: 110px;
+    margin-bottom: 5px;
+}
+#logo{
+    height: 100px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+}
+/* CSS for the social media icons */
+#linkdiv{
+    float: right;
+    padding: 5px;
+}
+#linkdiv a{
+    text-decoration: none;
+}
+.smicns{
+    height: 20px;
+    width: 22px;
+}
+
+/* Sidebar Navigation CSS */
+#sidenav {
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color:lightslategray; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    padding-top: 100px;
+    margin-top: 125px;
+    margin-right: 10px;
+}
+#sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+/* highlights the active page.
+nav li.active{
+    background-color: chocolate;
+} */
+
+/* In the BODY */
+/* body content */
+.main {
+    margin-right: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+
+/* A) Contact Us Section */
+#contacts{
+    height: 690px;
+    margin-bottom: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    /* paralaxx effect */
+    background-image: url("images/logo.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mapimage{
+    float: right;
+    height: 00px;
+    width: 200px;
+}
+.descriptionimg{
+    height: 200px;
+    width: 200px;
+}
+
+/* B) About Us Section */
+#about{
+    height: 690px;
+    margin-bottom: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    height: 690px;
+    margin-bottom: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    /* paralaxx effect */
+    background-image: url("images/logo2.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* C) Contact Us Section */
+#product{
+    height: 690px;
+    margin-bottom: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    height: 690px;
+    margin-bottom: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    /* paralaxx effect */
+    background-image: url("images/logo3.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
