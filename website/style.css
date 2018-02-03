@@ -1,5 +1,6 @@
 body{
     background-color: aliceblue;
+    font-family: Courier New, Courier, monospace;
 }
 
 /* Header CSS */
@@ -7,6 +8,7 @@ header{
     background-color: lightslategray;
     height: 110px;
     margin-bottom: 5px;
+    margin-right: 160px;
 }
 #logo{
     height: 100px;
@@ -39,7 +41,6 @@ header{
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 160px; /* Set the width of the sidebar */
     padding-top: 100px;
-    margin-top: 125px;
     margin-right: 10px;
 }
 #sidenav a {
@@ -77,15 +78,16 @@ nav li.active{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.details{
+    float: left;
+    width: 300px;
+}
 .mapimage{
     float: right;
-    height: 00px;
-    width: 200px;
+    height: 500px;
+    width: 300px;
 }
 .descriptionimg{
-    height: 200px;
-    width: 200px;
 }
 
 /* B) About Us Section */
