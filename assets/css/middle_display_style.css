@@ -1,0 +1,52 @@
+#middlead_display
+{
+clear:both;
+margin-top:20px;
+margin-left:10px;
+text-align:center;
+float:left;
+}
+
+#feedburner_div
+{
+	float:left;
+	margin-left:20px;
+	box-sizing:border-box;
+	background-color:#084B8A;
+	text-align:center;
+	padding:20px;
+	width:300px;
+	margin-top:20px;
+}
+#feedburner_div *
+{
+	font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;	
+}
+#feedburner_div .feed_head
+{
+color:white;
+font-size:25px;
+}
+#feedburner_div input[type="text"]
+{
+	margin-top:10px;
+	width:250px;
+	height:50px;
+	padding-left:10px;
+	border:none;
+	font-size:15px;
+	background-color:#0B3861;
+	color:white;
+}
+#feedburner_div input[type="submit"]
+{
+	margin-top:10px;
+	width:250px;
+	height:45px;
+	background-color:#0080FF;
+	border:none;
+	border-bottom:3px solid #045FB4;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+}
